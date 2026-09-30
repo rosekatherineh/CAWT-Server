@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- Rose Hernandez Bullock -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffee Connection</title>
+    <style>
+        body {
+            font-size: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(234, 214, 159);
+        }
+
+        header,
+        footer {
+            background-color: rgb(33, 16, 11);
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        header h1 {
+            color: rgb(234, 214, 159);
+            font-size: 4em;
+            text-shadow: .2em .08em rgb(116, 107, 82);
+            letter-spacing: 3px;
+            background-color: rgb(33, 16, 11)
+        }
+
+        h2 {
+            font-size: 2.3em;
+        }
+
+        h3 {
+            font-size: 1.25em;
+        }
+
+        footer {
+            color: rgb(243, 255, 188);
+            font-size: 1em;
+            background-color: rgb(33, 16, 11);
+        }
+
+        nav {
+            background-color: rgb(33, 16, 11);
+        }
+
+        nav a {
+            color: rgb(243, 255, 188);
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: bisque
+        }
+
+        figure,
+        #content {
+            background-color: rgb(243, 255, 188);
+        }
+
+        .product {
+            background-color: rgb(234, 214, 159);
+        }
+
+        nav,
+        figure,
+        main,
+        .product,
+        footer {
+            outline: 1px dotted #000000;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        nav {
+            margin-right: auto;
+            margin-left: auto;
+            width: 960px;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        figure {
+            margin-right: auto;
+            margin-left: auto;
+            width: 960px;
+        }
+
+        #content {
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 2em;
+            width: 960px;
+        }
+
+        .product {
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="center">
+        <h1>Coffee Connection</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Locations</a></li>
+        </ul>
+    </nav>
+    <figure class="center">
+        <img src="images/people.png" alt="people drinking coffee">
+    </figure>
+
+    <!-- Content -->
+    <main id="content">
+        <h2 class="center">Welcome to Coffee Connection!</h2>
+        <blockquote>
+            <p>
+                We&rsquo;re not just passionate lovers of coffee, but everything else that goes with a full and
+                rewarding coffeehouse experience. We also offer a selection of premium teas, fine pastries and other
+                delectable treats. And the music you hear in store is chosen for its artistry and appeal.
+            </p>
+            <p>
+                It&rsquo;s not unusual to see people coming to Coffee Connection to chat, meet up or even work.
+                We&rsquo;re a neighborhood gathering place, a part of the daily routine, and would like to be part of
+                your way of life.
+            </p>
+        </blockquote>
+        <section>
+            <div class="product center">
+                <h3>Espresso</h3>
+                <p><img src="images/coffee_espresso.jpg" alt="expresso coffee"></p>
+                <p>Popular espresso beverages</p>
+            </div>
+            <div class="product center">
+                <h3>Blended</h3>
+                <p><img src="images/coffee_blended.jpg" alt="blended coffee drinks"></p>
+                <p>Delicious icy blends</p>
+            </div>
+            <div class="product center">
+                <h3>Pastries</h3>
+                <p><img src="images/coffee_pastries.jpg" alt="pastries"></p>
+                <p>Muffins, bagels and more</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="center">
+        <br>
+        <address>
+            <p>
+                PO Box 1234<br>
+                San Diego, CA 92100<br>
+                info@CoffeeConnection.com
+            </p>
+        </address>
+        <br>
+    </footer>
+</body>
+
+</html>
