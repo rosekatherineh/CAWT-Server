@@ -1,0 +1,22 @@
+S T Y L E S
+td,
+th {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+S T A R T E R - T A B L E - C O N T E N T
+<tr>
+    <th>Course Number</th>
+    <th>Course Name</th>
+    <th>Instructor</th>
+</tr>
+<tr>
+    <td>CAWT 170</td>
+    <td>Website Development I</td>
+    <td>Marty Pfeiffer</td>
+</tr>
