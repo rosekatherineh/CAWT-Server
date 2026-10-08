@@ -48,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     color: rgba(244, 162, 96);
 }
 
@@ -59,7 +59,7 @@ nav {
     margin-right: auto;
     margin-left: auto;
     width: 960px;
-    padding: 3px;
+    padding: 20px;
     border-radius: 1em;
     padding: 1px;
     outline: 10px dotted rgb(207, 150, 7);
@@ -75,6 +75,7 @@ nav a {
 nav li {
     display: inline-block;
     margin-left: auto;
+    padding: 0 20px;
 }
 
 section {

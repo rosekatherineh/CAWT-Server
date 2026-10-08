@@ -18,8 +18,25 @@
             border-block-color: rgba(42, 157, 142);
             border-inline-color: rgba(38, 70, 82);
             box-shadow: 6px 6px 10px rgba(207, 150, 7);
-            display: block;
+            /* display: block; */
             margin: 0 auto;
+
+        }
+
+        article {
+            margin: 1em;
+            background-color: rgba(250, 252, 252, 0.6);
+        }
+
+        article img {
+            float: left;
+            margin: 1em;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
         }
     </style>
 </head>
@@ -117,11 +134,11 @@
             </section>
             <section>
                 <h2>Visuals of Jim and His Works</h2>
-                <p><img src="images/jimhenson_muppet.jpg" width="200" height="300" alt="Jim Henson as a Muppet"></p>
-                <p><small>This is a muppet of Jim Henson himself that he made and can be seen at the Center of Puppetry
-                        in
-                        Atlanta,
-                        Georgia.</small></p>
+                <article class="clearfix">
+                    <img src="images/jimhenson_muppet.jpg" width="200" height="300" alt="Jim Henson as a Muppet">
+                    <p>This is a muppet of Jim Henson himself that he made and can be seen at the Center of Puppetry in
+                        Atlanta, Georgia.</p>
+                </article>
                 <p><img src="images/Seasame-Street.jpg" width="350" height="200"
                         alt="Jim Henson and Frank Oz with Bert and Ernie"></p>
                 <p><small>Jim Henson and Frank puppeteering Ernie and Bert on <em>Seasme Street.</em></small></p>
