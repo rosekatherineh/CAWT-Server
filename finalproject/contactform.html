@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact a Human!</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        li {
+            list-style-type: none;
+            margin: 0.5em 0;
+        }
+
+        fieldset {
+            border: 4px solid rgba(42, 157, 142);
+            padding: 1em;
+            margin: 1em 3em 1em 3em;
+        }
+
+        legend {
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        label {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        placeholder {
+            font-size: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 0.5em;
+            font-size: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 0.5em;
+            font-size: 20px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-size: 25px;
+            padding: 0.5em 1em;
+            margin-top: 1em;
+            border-radius: 5em;
+            border-color: rgba(42, 157, 142);
+        }
+
+        input[type="radio"] {
+            margin-right: .5em;
+            font-size: 20px;
+        }
+
+        .radio-container {
+            font-size: 25px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 400px;
+            /* Makes the text box narrower */
+            height: 24px;
+            /* Makes the text box shorter */
+            padding: 10px;
+            /* Keeps internal spacing small */
+            font-size: 20px;
+            /* Optional: adjusts text size to fit the smaller box */
+        }
+
+        textarea {
+            width: 700px;
+            height: 300px;
+            padding: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <header>
+        <h1 id="head1">Contact a Human!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="henson.html">Henson</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="cast.html">Cast</a></li>
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="wrapper">
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <fieldset>
+                    <legend>Contact, Contact, Contact!</legend>
+                    <p>A human, but most definitely not a Muppet, will get back to you as soon as possible!</p>
+                    <ol>
+                        <li><label for="firstlast">Name:</label>
+                            <input type="text" name="fullname" id="firstlast" placeholder="First and Last Name">
+                        </li>
+                        <li><label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email Address">
+                        </li>
+                        <li><label for="comment">Comment:</label></li>
+                        <textarea name="comment" rows="20" cols="50"
+                            placeholder="Type your comment and/or question here!"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Survey</legend>
+                    <p>The human who runs this website wants to know more about you!</p>
+                    <li><label for="favmuppet">Favorite Muppet:</label>
+                        <input type="text" name="favmuppet" id="favmuppet" placeholder="Kermit" maxlength="100">
+                    </li>
+                    <li><label for="favmovie">Favorite Muppet Movie:</label>
+                        <input type="text" name="favmovie" id="favmovie" placeholder="The Muppets Movie">
+                    </li>
+                    <li>
+                        <p>How old were you when you learned about muppets?</p>
+                        <ol>
+                            <label class="radio-container">
+                                <li><input type="radio" name="age" value="0-10">0-10</li>
+                                <li><input type="radio" name="age" value="11-20">11-20</li>
+                                <li><input type="radio" name="age" value="21-30">21-30</li>
+                                <li><input type="radio" name="age" value="41-50">41-50</li>
+                                <li><input type="radio" name="age" value="51+">51+</li>
+                            </label>
+                        </ol>
+                    </li>
+                    </ol>
+                    <input type="Submit" value="Submit">
+                    <input type="Reset" value="Reset">
+            </form>
+    </main>
+    <footer>
+        <p>Just a Muppet Of A Man | 2026</p><a href="mailto:rkhernandez@my.canyons.edu">Email</a>
+        <p><a href="#top">top of page</a></p>
+    </footer>
+    </div>
+</body>
+
+</html>
