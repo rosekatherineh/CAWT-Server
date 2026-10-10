@@ -92,3 +92,15 @@ footer {
     padding: 1px;
     outline: 5px dotted rgba(42, 157, 142);
 }
+
+a:link {
+    color: rgb(3, 100, 34);
+}
+
+a:visited {
+    color: rgb(125, 2, 2);
+}
+
+a:hover {
+    color: rgba(244, 162, 96);
+}
